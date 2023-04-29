@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us | Tours and Travels</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <ul>
+          <li><a href="/home.html">Home</a></li>
+          <li><a href="/tours.html">Tours</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/login.html">Login</a></li>
+        </ul>
+      </nav>
+    <h1>Tours and Travels</h1>
+    
+    <p style="color: white">Explore the world with us!</p>
+  </header>
+
+  <main style="max-width: 800px; margin: 0 auto; padding: 20px;">
+    <h2 style="font-size: 2.5rem; text-align: center;">Contact Us</h2>
+    <p>Fill out the form below to get in touch with us:</p>
+    <form style="display: flex; flex-direction: column;">
+      <label for="name" style="text-align: left;">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="3" required></textarea>
+
+      <button type="submit" class="cta-button">Send</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Tours and Travels</p>
+  </footer>
+</body>
+</html>
