@@ -208,4 +208,65 @@ header {
   .testimonial cite {
 	font-weight: bold;
   }
+
+  
+  .destinations {
+	margin: 50px auto;
+	max-width: 900px;
+  }
+  
+  .destination-card {
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+	background-color: #f9f9f9;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  }
+  
+  .destination-card img {
+	margin-bottom: 20px;
+  }
+  
+  .destination-card h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  .destination-card p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 20px;
+  }
+  
+  .cta-button {
+	display: inline-block;
+	padding: 10px 20px;
+	border-radius: 5px;
+	/* background-color: #007bff; */
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.3s ease;
+  }
+  
+  .cta-button:hover {
+	background-color: #0062cc;
+  }
+
+  .tour-card-container {
+	display: flex;
+	justify-content: space-between; /* distribute the items evenly along the row */
+  }
+  
+  .tour-card {
+	flex: 0 0 calc(33.33% - 20px); /* set the width of each card to 33.33% of the container minus the margins */
+	margin: 0 10px; /* add a margin around each card */
+	text-align: center;
+  }
+  
+  .tour-card img {
+	height: 200px;
+	width: 200px;
+  }
   
